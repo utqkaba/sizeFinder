@@ -56,7 +56,7 @@ export default function GfgInput() {
     <div className='flex flex-col items-center justify-center h-screen bg-white text-black'>
       <img src={"src/assets/vefaklnc.jpeg"} alt="Uppstairs" className='object-scale-down h-48 w-96' />
       <span className='font-extralight p-6 my-4'>Find out which size is the most suitable size right now!</span>
-      <div className='w-[21.5%] border-2 border-double border-gray-800 rounded-xl'>
+      <div className='w-[23%] border-2 border-double border-gray-800 rounded-xl'>
         <div className='p-4 mx-6 text-center my-2'>
           <span className='font-thin text-sm'>Height: {height} </span>
           <Slider
