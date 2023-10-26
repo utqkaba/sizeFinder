@@ -28,9 +28,9 @@ export default function GfgInput() {
     } else if (Bmi >= 25 && Bmi < 29.9) {
       setSize("L")
     } else if (Bmi >= 30 && Bmi < 34.9) {
-      setSize("L")
+      setSize("XL")
     } else if (Bmi >= 35 && Bmi < 39.9) {
-      setSize("L")
+      setSize("XXL")
     } else {
       setSize("XXXL")
     }
