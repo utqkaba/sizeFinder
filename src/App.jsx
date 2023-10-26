@@ -40,8 +40,15 @@ export default function GfgInput() {
   return (
     <div className='flex flex-col items-center justify-center h-screen bg-white text-black dark:bg-black dark:text-white'>
       <PromoBar />
-      <img src={Images} alt="Uppstairs" className='object-scale-down h-48 w-96' />
-      <span className='font-extralight text-lg p-6 my-4'>Find out which size is the most suitable size right now!</span>
+      <img
+        src={Images}
+        alt="Uppstairs"
+        className='object-scale-down h-48 w-96' />
+
+      <span className='font-extralight text-lg p-6 my-4'>
+        Find out which size is the most suitable size right now!
+      </span>
+
       <div className='w-[24%] border-2 border-double border-gray-800 rounded-xl'>
         <div className='p-4 mx-6 text-center my-2'>
           <span className='font-thin text-base'>Height: {height} </span>
@@ -60,7 +67,9 @@ export default function GfgInput() {
         </div>
       </div>
       <button className='border border-double border-gray-800 rounded-xl mx-4 mt-6 px-4 font-thin hover:scale-110 duration-500 hover:bg-gray-800 hover:text-white'
-        onClick={() => { handleBodyMassIndex(height, weight) }}>Find Size</button>
+        onClick={() => { handleBodyMassIndex(height, weight) }}>
+        Find Size
+      </button>
       <span className='font-medium text-xl mt-4'>Your size is {size}. </span>
     </div>
   );
