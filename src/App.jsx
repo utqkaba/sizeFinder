@@ -40,10 +40,14 @@ export default function GfgInput() {
   return (
     <div className='flex flex-col items-center justify-center h-screen bg-white text-black dark:bg-black dark:text-white'>
       <PromoBar />
-      <img
-        src={Images}
-        alt="Uppstairs"
-        className='object-scale-down h-48 w-96' />
+      <a href="https://uppstairs.com/">
+        <img
+          src={Images}
+          alt="Uppstairs"
+          className='object-scale-down h-48 w-96'
+        />
+      </a>
+
 
       <span className='font-extralight text-lg p-6 my-4'>
         Find out which size is the most suitable size right now!
