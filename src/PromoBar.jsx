@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function PromoBar() {
   const [promoText, setPromoText] = useState("500₺ ÜZERİ ÜCRETSİZ KARGO"); // Başlangıç metni
@@ -16,7 +16,7 @@ function PromoBar() {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  },);
 
   return (
     <div className="bg-black text-white p-3 fixed top-0 w-screen">
