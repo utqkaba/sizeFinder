@@ -39,7 +39,7 @@ export default function GfgInput() {
   return (
     <div className='flex flex-col items-center justify-center h-screen bg-white text-black dark:bg-black dark:text-white'>
       <PromoBar />
-      <img src={"src/assets/images/vefaklnc.jpeg"} alt="Uppstairs" className='object-scale-down h-48 w-96' />
+      <img src="https://uppstairs.netlify.app/assets/images/vefaklnc.jpeg" alt="Uppstairs" className='object-scale-down h-48 w-96' />
       <span className='font-extralight text-lg p-6 my-4'>Find out which size is the most suitable size right now!</span>
       <div className='w-[24%] border-2 border-double border-gray-800 rounded-xl'>
         <div className='p-4 mx-6 text-center my-2'>
