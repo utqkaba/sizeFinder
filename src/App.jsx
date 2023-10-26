@@ -53,7 +53,7 @@ export default function GfgInput() {
         Find out which size is the most suitable size right now!
       </span>
 
-      <div className='w-[24%] border-2 border-double border-gray-800 rounded-xl'>
+      <div className='w-[20%] border-2 border-double border-gray-800 rounded-xl'>
         <div className='p-4 mx-6 text-center my-2'>
           <span className='font-thin text-base'>Height: {height} </span>
           <Slider
