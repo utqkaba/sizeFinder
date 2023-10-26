@@ -21,7 +21,7 @@ function PromoBar() {
   return (
     <div className="bg-black text-white p-3 fixed top-0 w-screen">
       <div className="container text-center text-xs font-medium mx-auto">
-        <a href="https://uppstairs.com/">
+        <a href="https://uppstairs.com/" className='animate-pulse'>
           {promoText}
         </a>
       </div>
