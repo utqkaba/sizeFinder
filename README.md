@@ -1,6 +1,6 @@
-# SizeFinder - UppStairs (https://uppstairs.com/)
+# SizeFinder - UppStairs 
 
-A size finder application developed for UppStairs company.
+A size finder application developed for UppStairs company. (https://uppstairs.com/)
 
 ## 🌐 Live Demo
 
